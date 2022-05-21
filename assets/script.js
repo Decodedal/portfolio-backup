@@ -1,9 +1,11 @@
 let toggle = document.querySelector("#checkbox");
+let heade = document.querySelector(".head");
 
 toggle.addEventListener("change", function(){
    if (toggle.checked == true){
        document.body.style.backgroundColor = "black"
        document.body.style.color ="white"
+       document.head.style.textShadow = "none"
        console.log("on")
    }else{
        document.body.style.backgroundColor= "rgb(223, 175, 223)"
